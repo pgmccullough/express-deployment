@@ -11,6 +11,11 @@ app.get('/patrick', (req, res) => {
   res.send(`<h1>This is a top secret endpoint</h1>`);
 });
 
+app.get('/nate', (req, res) => {
+  res.send(`<h1>it just works!</h1>`);
+});
+
+
 app.listen(PORT, () => {
    console.log(`app running on port ${PORT}`)
 });
